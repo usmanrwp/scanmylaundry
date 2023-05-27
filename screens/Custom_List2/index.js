@@ -62,60 +62,23 @@ export default class index extends Component {
 
     this.setState({
       dataa_dropdown: categories_Show,
-
     });
-
-
     let ddd = this.state.dataa_dropdown;
-
-    // alert(JSON.stringify( ddd));
-
     let data = [];
     let data_ = [];
-
-
     for (let i = 0; i < ddd.length; i++) {
-
-
       data_[i] = ddd[i].OID;
-
     }
-
-
     this.onChange(data_);
-
-
 
     this.focusListener = this.props.navigation.addListener('didFocus', () => {
       this.onFocusFunction()
     })
-
-
-
   };
-
-
-
-
-
-
-
 
   componentWillUnmount() {
     this.focusListener.remove()
   }
-
-
-
-
-  componentDidUpdate = async () => {
-
-
-
-
-
-  }
-
 
 
 

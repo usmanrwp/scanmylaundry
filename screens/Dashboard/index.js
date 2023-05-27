@@ -95,7 +95,7 @@ export default class index extends Component {
       promoModal: false,
       BagCode: '',
       bagData: '',
-      scannerCount: ''
+      scannerCount:''
     };
   }
 
@@ -123,9 +123,9 @@ export default class index extends Component {
           grant = await PermissionsAndroid.request(
             PermissionsAndroid.PERMISSIONS.ACCESS_FINE_LOCATION,
             {
-              title: "ScanMyLaundry Location Permission",
+              title: "Essex Laundry Location Permission",
               message:
-                "ScanMyLaundry App needs access to your location " +
+                "Essex Laundry App needs access to your location " +
                 "so we collect your item.",
               // buttonNeutral: "Ask Me Later",
               // buttonNegative: "Cancel",
@@ -412,23 +412,23 @@ export default class index extends Component {
   onBarcodeScan = async (qrvalue) => {
     this.setState({ opneScanner: false })
     if (qrvalue === "https://qr1.be/LRUT") {
-      const res = await _retrieveData1();
-      let param = {};
-      param["email"] = res;
-      let ress = await _fetch("read_bags", param);
-      if (ress.includes("No")) {
-        if (this.state.scannerCount === "1") {
-          this.setState({ scannerCount: "2", opneScanner: false })
-          alert(JSON.stringify(ress))
-        }
-      } else {
-        await this.setState({ qrvalue, opneScanner: false, promoModal: true, BagCode: '', bagData: ress, })
-      }
+        const res = await _retrieveData1();
+    let param = {};
+    param["email"] = res;
+    let ress = await _fetch("read_bags", param);
+    if (ress.includes("No")) {
+     if (this.state.scannerCount === "1") {
+     this.setState({  scannerCount: "2", opneScanner: false })
+      alert(JSON.stringify(ress))
+     } 
     } else {
-      this.setState({ scannerCount: "2", opneScanner: false })
-      alert('Wrong QR code, please try again')
+    await this.setState({ qrvalue, opneScanner: false, promoModal: true, BagCode: '', bagData: ress,  })
     }
-
+    } else {
+    this.setState({  scannerCount: "2", opneScanner: false })
+      alert( 'Wrong QR code, please try again') 
+    }
+  
   };
 
   onOpneScanner = async () => {
@@ -437,9 +437,9 @@ export default class index extends Component {
         const granted = await PermissionsAndroid.request(
           PermissionsAndroid.PERMISSIONS.CAMERA,
           {
-            title: "ScanMyLaundry Camera Permission",
+            title: "Essex Laundry Camera Permission",
             message:
-              "ScanMyLaundry App needs access to your camera ",
+              "Essex Laundry App needs access to your camera ",
             buttonNegative: "Cancel",
             buttonPositive: "OK"
           }
@@ -456,7 +456,7 @@ export default class index extends Component {
       }
 
     } else {
-      this.setState({ qrvalue: '', scannerCount: "1", opneScanner: true, })
+      this.setState({ qrvalue: '',scannerCount: "1", opneScanner: true,  })
 
     }
   }
@@ -631,12 +631,12 @@ export default class index extends Component {
   };
 
   open2ndCart = async (item) => {
-    await cartDBBag.clearCart();
+      await cartDBBag.clearCart();
     this.addItem(parseInt(item.product_id), item.id, item.bag_no, item.product_price)
     this.closecomment()
     setTimeout(async () => {
       this.closecomment()
-      this.props.navigation.navigate("BasketCopy", { item: item });
+      this.props.navigation.navigate("BasketCopy",{item: item});
     }, 500);
   }
 
@@ -780,8 +780,8 @@ export default class index extends Component {
                   <Text style={styles.bagCodeText}>Baskets</Text>
                   <Text style={[styles.bagCodeText, { fontSize: 16, fontWeight: "normal", marginTop: 5 }]}>Select your basket</Text>
                 </View>
-                <SafeAreaView style={{ marginHorizontal: 5, marginTop: 8, height: "80%" }}>
-
+                <SafeAreaView style={{ marginHorizontal: 5, marginTop: 8, height:"80%" }}>
+                  
                   <FlatList
                     data={this.state.bagData}
                     keyExtractor={(item, index) => index.toString()}
