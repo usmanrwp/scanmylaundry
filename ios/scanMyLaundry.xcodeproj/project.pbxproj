@@ -1,0 +1,1115 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B5F3E9239C61EAB6190BD79 /* libPods-ScanMyLaundry-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 835D8C408498A5F71CA852FD /* libPods-ScanMyLaundry-tvOS.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		18B29B2F277B943F009931CE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B29B2E277B943F009931CE /* MapKit.framework */; };
+		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* ScanMyLaundryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ScanMyLaundryTests.m */; };
+		3707937B38614520BD44E5CA /* libPods-ScanMyLaundry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06AAF7319CF4F71E4CDCF03D /* libPods-ScanMyLaundry.a */; };
+		4AD15477255A7F9100F082D2 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 008F07F21AC5B25A0029DE68 /* main.jsbundle */; };
+		6E66A68223869239002E415E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E66A68123869239002E415E /* GoogleService-Info.plist */; };
+		6E7367632339F186001C68F8 /* Cagliostro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7367002339ED7F001C68F8 /* Cagliostro-Bold.ttf */; };
+		6E7367642339F186001C68F8 /* Cagliostro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E73671A2339ED82001C68F8 /* Cagliostro-Regular.ttf */; };
+		6E7367652339F186001C68F8 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E73670B2339ED81001C68F8 /* Entypo.ttf */; };
+		6E7367662339F186001C68F8 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7367092339ED80001C68F8 /* EvilIcons.ttf */; };
+		6E7367672339F186001C68F8 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7367102339ED81001C68F8 /* Feather.ttf */; };
+		6E7367682339F186001C68F8 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7367172339ED82001C68F8 /* FontAwesome.ttf */; };
+		6E7367692339F186001C68F8 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7367022339ED7F001C68F8 /* FontAwesome5_Brands.ttf */; };
+		6E73676A2339F186001C68F8 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7366FC2339ED7E001C68F8 /* FontAwesome5_Regular.ttf */; };
+		6E73676B2339F186001C68F8 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7366FF2339ED7F001C68F8 /* FontAwesome5_Solid.ttf */; };
+		6E73676C2339F186001C68F8 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7367192339ED82001C68F8 /* Fontisto.ttf */; };
+		6E73676D2339F186001C68F8 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7367112339ED81001C68F8 /* Foundation.ttf */; };
+		6E73676E2339F186001C68F8 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E73670A2339ED80001C68F8 /* Ionicons.ttf */; };
+		6E73676F2339F186001C68F8 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7367162339ED82001C68F8 /* MaterialCommunityIcons.ttf */; };
+		6E7367702339F186001C68F8 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7366FA2339ED7E001C68F8 /* MaterialIcons.ttf */; };
+		6E7367712339F186001C68F8 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E73670C2339ED81001C68F8 /* Octicons.ttf */; };
+		6E7367722339F186001C68F8 /* Raleway-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E73670F2339ED81001C68F8 /* Raleway-Black.ttf */; };
+		6E7367732339F186001C68F8 /* Raleway-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7366F82339ED7E001C68F8 /* Raleway-BlackItalic.ttf */; };
+		6E7367742339F186001C68F8 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7367032339ED80001C68F8 /* Raleway-Bold.ttf */; };
+		6E7367752339F186001C68F8 /* Raleway-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7367132339ED81001C68F8 /* Raleway-BoldItalic.ttf */; };
+		6E7367762339F186001C68F8 /* Raleway-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7367072339ED80001C68F8 /* Raleway-ExtraBold.ttf */; };
+		6E7367772339F186001C68F8 /* Raleway-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E73670D2339ED81001C68F8 /* Raleway-ExtraBoldItalic.ttf */; };
+		6E7367782339F186001C68F8 /* Raleway-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7367012339ED7F001C68F8 /* Raleway-ExtraLight.ttf */; };
+		6E7367792339F186001C68F8 /* Raleway-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7367082339ED80001C68F8 /* Raleway-ExtraLightItalic.ttf */; };
+		6E73677A2339F186001C68F8 /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7366FB2339ED7E001C68F8 /* Raleway-Light.ttf */; };
+		6E73677B2339F186001C68F8 /* Raleway-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7367042339ED80001C68F8 /* Raleway-LightItalic.ttf */; };
+		6E73677C2339F186001C68F8 /* Raleway-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7367122339ED81001C68F8 /* Raleway-Medium.ttf */; };
+		6E73677D2339F186001C68F8 /* Raleway-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E73671C2339ED83001C68F8 /* Raleway-MediumItalic.ttf */; };
+		6E73677E2339F186001C68F8 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7367052339ED80001C68F8 /* Raleway-Regular.ttf */; };
+		6E73677F2339F186001C68F8 /* Raleway-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7366F92339ED7E001C68F8 /* Raleway-RegularItalic.ttf */; };
+		6E7367802339F186001C68F8 /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7367062339ED80001C68F8 /* Raleway-SemiBold.ttf */; };
+		6E7367812339F186001C68F8 /* Raleway-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7366FD2339ED7E001C68F8 /* Raleway-SemiBoldItalic.ttf */; };
+		6E7367822339F186001C68F8 /* Raleway-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E73671B2339ED82001C68F8 /* Raleway-Thin.ttf */; };
+		6E7367832339F186001C68F8 /* Raleway-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7367142339ED82001C68F8 /* Raleway-ThinItalic.ttf */; };
+		6E7367842339F186001C68F8 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7367182339ED82001C68F8 /* SimpleLineIcons.ttf */; };
+		6E7367852339F186001C68F8 /* SpaceMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7366FE2339ED7F001C68F8 /* SpaceMono-Regular.ttf */; };
+		6E7367862339F186001C68F8 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7367152339ED82001C68F8 /* Zocial.ttf */; };
+		6E7367872339F186001C68F8 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7366D82339ED42001C68F8 /* Fontisto.ttf */; };
+		6E7367882339F186001C68F8 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7366D92339ED42001C68F8 /* Octicons.ttf */; };
+		6E7367892339F186001C68F8 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7366DA2339ED42001C68F8 /* Feather.ttf */; };
+		6E73678A2339F186001C68F8 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7366DB2339ED42001C68F8 /* Entypo.ttf */; };
+		6E73678B2339F186001C68F8 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7366DC2339ED42001C68F8 /* FontAwesome5_Brands.ttf */; };
+		6E73678C2339F186001C68F8 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7366DD2339ED42001C68F8 /* MaterialCommunityIcons.ttf */; };
+		6E73678D2339F186001C68F8 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7366DE2339ED42001C68F8 /* AntDesign.ttf */; };
+		6E73678E2339F186001C68F8 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7366DF2339ED42001C68F8 /* Foundation.ttf */; };
+		6E73678F2339F186001C68F8 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7366E02339ED42001C68F8 /* Ionicons.ttf */; };
+		6E7367902339F186001C68F8 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7366E12339ED42001C68F8 /* FontAwesome5_Solid.ttf */; };
+		6E7367912339F186001C68F8 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7366E22339ED42001C68F8 /* FontAwesome5_Regular.ttf */; };
+		6E7367922339F186001C68F8 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7366E32339ED42001C68F8 /* FontAwesome.ttf */; };
+		6E7367932339F186001C68F8 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7366E42339ED42001C68F8 /* Zocial.ttf */; };
+		6E7367942339F186001C68F8 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7366E52339ED42001C68F8 /* EvilIcons.ttf */; };
+		6E7367952339F186001C68F8 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7366E62339ED42001C68F8 /* SimpleLineIcons.ttf */; };
+		6E7367962339F186001C68F8 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7366E72339ED42001C68F8 /* MaterialIcons.ttf */; };
+		6E7367982339F8A1001C68F8 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 6E7367972339F8A1001C68F8 /* www */; };
+		9383DDABDE80BEB75D0DB27C /* libPods-ScanMyLaundry-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A592C49E4942F17F6EC3A87B /* libPods-ScanMyLaundry-tvOSTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
+			remoteInfo = "ScanMyLaundry-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* ScanMyLaundryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScanMyLaundryTests.m; sourceTree = "<group>"; };
+		0308E2971D49271D0DEF58BD /* Pods-ScanMyLaundry-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanMyLaundry-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-ScanMyLaundry-tvOSTests/Pods-ScanMyLaundry-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		06AAF7319CF4F71E4CDCF03D /* libPods-ScanMyLaundry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScanMyLaundry.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06CFAF25BF4EFF56635115E3 /* Pods-ScanMyLaundry-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanMyLaundry-tvOS.release.xcconfig"; path = "Target Support Files/Pods-ScanMyLaundry-tvOS/Pods-ScanMyLaundry-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* ScanMyLaundry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScanMyLaundry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ScanMyLaundry/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ScanMyLaundry/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ScanMyLaundry/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ScanMyLaundry/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ScanMyLaundry/main.m; sourceTree = "<group>"; };
+		164B0A6CF11C166E9AF75FF6 /* libPods-ScanMyLaundryTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScanMyLaundryTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B29B2D277B7220009931CE /* ScanMyLaundryDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = ScanMyLaundryDebug.entitlements; path = ScanMyLaundry/ScanMyLaundryDebug.entitlements; sourceTree = "<group>"; };
+		18B29B2E277B943F009931CE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2D02E47B1E0B4A5D006451C7 /* ScanMyLaundry-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ScanMyLaundry-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* ScanMyLaundry-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ScanMyLaundry-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3696B20EF3D7CC516DC233FD /* Pods-ScanMyLaundry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanMyLaundry.release.xcconfig"; path = "Target Support Files/Pods-ScanMyLaundry/Pods-ScanMyLaundry.release.xcconfig"; sourceTree = "<group>"; };
+		4A0A379B24FD85A400FCA1B3 /* ScanMyLaundry.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = ScanMyLaundry.entitlements; path = ScanMyLaundry/ScanMyLaundry.entitlements; sourceTree = "<group>"; };
+		4A12588903CD884BD759E977 /* Pods-ScanMyLaundryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanMyLaundryTests.debug.xcconfig"; path = "Target Support Files/Pods-ScanMyLaundryTests/Pods-ScanMyLaundryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6C118548766822106FE268C3 /* Pods-ScanMyLaundry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanMyLaundry.debug.xcconfig"; path = "Target Support Files/Pods-ScanMyLaundry/Pods-ScanMyLaundry.debug.xcconfig"; sourceTree = "<group>"; };
+		6E66A68123869239002E415E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6E7366D82339ED42001C68F8 /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fontisto.ttf; sourceTree = "<group>"; };
+		6E7366D92339ED42001C68F8 /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Octicons.ttf; sourceTree = "<group>"; };
+		6E7366DA2339ED42001C68F8 /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Feather.ttf; sourceTree = "<group>"; };
+		6E7366DB2339ED42001C68F8 /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Entypo.ttf; sourceTree = "<group>"; };
+		6E7366DC2339ED42001C68F8 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Brands.ttf; sourceTree = "<group>"; };
+		6E7366DD2339ED42001C68F8 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
+		6E7366DE2339ED42001C68F8 /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AntDesign.ttf; sourceTree = "<group>"; };
+		6E7366DF2339ED42001C68F8 /* Foundation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Foundation.ttf; sourceTree = "<group>"; };
+		6E7366E02339ED42001C68F8 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ionicons.ttf; sourceTree = "<group>"; };
+		6E7366E12339ED42001C68F8 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Solid.ttf; sourceTree = "<group>"; };
+		6E7366E22339ED42001C68F8 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Regular.ttf; sourceTree = "<group>"; };
+		6E7366E32339ED42001C68F8 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		6E7366E42339ED42001C68F8 /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zocial.ttf; sourceTree = "<group>"; };
+		6E7366E52339ED42001C68F8 /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EvilIcons.ttf; sourceTree = "<group>"; };
+		6E7366E62339ED42001C68F8 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleLineIcons.ttf; sourceTree = "<group>"; };
+		6E7366E72339ED42001C68F8 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
+		6E7366F82339ED7E001C68F8 /* Raleway-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Raleway-BlackItalic.ttf"; path = "../../../assets/fonts/Raleway-BlackItalic.ttf"; sourceTree = "<group>"; };
+		6E7366F92339ED7E001C68F8 /* Raleway-RegularItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Raleway-RegularItalic.ttf"; path = "../../../assets/fonts/Raleway-RegularItalic.ttf"; sourceTree = "<group>"; };
+		6E7366FA2339ED7E001C68F8 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialIcons.ttf; path = ../../../assets/fonts/MaterialIcons.ttf; sourceTree = "<group>"; };
+		6E7366FB2339ED7E001C68F8 /* Raleway-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Raleway-Light.ttf"; path = "../../../assets/fonts/Raleway-Light.ttf"; sourceTree = "<group>"; };
+		6E7366FC2339ED7E001C68F8 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Regular.ttf; path = ../../../assets/fonts/FontAwesome5_Regular.ttf; sourceTree = "<group>"; };
+		6E7366FD2339ED7E001C68F8 /* Raleway-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Raleway-SemiBoldItalic.ttf"; path = "../../../assets/fonts/Raleway-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		6E7366FE2339ED7F001C68F8 /* SpaceMono-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SpaceMono-Regular.ttf"; path = "../../../assets/fonts/SpaceMono-Regular.ttf"; sourceTree = "<group>"; };
+		6E7366FF2339ED7F001C68F8 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Solid.ttf; path = ../../../assets/fonts/FontAwesome5_Solid.ttf; sourceTree = "<group>"; };
+		6E7367002339ED7F001C68F8 /* Cagliostro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cagliostro-Bold.ttf"; path = "../../../assets/fonts/Cagliostro-Bold.ttf"; sourceTree = "<group>"; };
+		6E7367012339ED7F001C68F8 /* Raleway-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Raleway-ExtraLight.ttf"; path = "../../../assets/fonts/Raleway-ExtraLight.ttf"; sourceTree = "<group>"; };
+		6E7367022339ED7F001C68F8 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Brands.ttf; path = ../../../assets/fonts/FontAwesome5_Brands.ttf; sourceTree = "<group>"; };
+		6E7367032339ED80001C68F8 /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Raleway-Bold.ttf"; path = "../../../assets/fonts/Raleway-Bold.ttf"; sourceTree = "<group>"; };
+		6E7367042339ED80001C68F8 /* Raleway-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Raleway-LightItalic.ttf"; path = "../../../assets/fonts/Raleway-LightItalic.ttf"; sourceTree = "<group>"; };
+		6E7367052339ED80001C68F8 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Raleway-Regular.ttf"; path = "../../../assets/fonts/Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		6E7367062339ED80001C68F8 /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Raleway-SemiBold.ttf"; path = "../../../assets/fonts/Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
+		6E7367072339ED80001C68F8 /* Raleway-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Raleway-ExtraBold.ttf"; path = "../../../assets/fonts/Raleway-ExtraBold.ttf"; sourceTree = "<group>"; };
+		6E7367082339ED80001C68F8 /* Raleway-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Raleway-ExtraLightItalic.ttf"; path = "../../../assets/fonts/Raleway-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		6E7367092339ED80001C68F8 /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = EvilIcons.ttf; path = ../../../assets/fonts/EvilIcons.ttf; sourceTree = "<group>"; };
+		6E73670A2339ED80001C68F8 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ionicons.ttf; path = ../../../assets/fonts/Ionicons.ttf; sourceTree = "<group>"; };
+		6E73670B2339ED81001C68F8 /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Entypo.ttf; path = ../../../assets/fonts/Entypo.ttf; sourceTree = "<group>"; };
+		6E73670C2339ED81001C68F8 /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Octicons.ttf; path = ../../../assets/fonts/Octicons.ttf; sourceTree = "<group>"; };
+		6E73670D2339ED81001C68F8 /* Raleway-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Raleway-ExtraBoldItalic.ttf"; path = "../../../assets/fonts/Raleway-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		6E73670F2339ED81001C68F8 /* Raleway-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Raleway-Black.ttf"; path = "../../../assets/fonts/Raleway-Black.ttf"; sourceTree = "<group>"; };
+		6E7367102339ED81001C68F8 /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Feather.ttf; path = ../../../assets/fonts/Feather.ttf; sourceTree = "<group>"; };
+		6E7367112339ED81001C68F8 /* Foundation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Foundation.ttf; path = ../../../assets/fonts/Foundation.ttf; sourceTree = "<group>"; };
+		6E7367122339ED81001C68F8 /* Raleway-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Raleway-Medium.ttf"; path = "../../../assets/fonts/Raleway-Medium.ttf"; sourceTree = "<group>"; };
+		6E7367132339ED81001C68F8 /* Raleway-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Raleway-BoldItalic.ttf"; path = "../../../assets/fonts/Raleway-BoldItalic.ttf"; sourceTree = "<group>"; };
+		6E7367142339ED82001C68F8 /* Raleway-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Raleway-ThinItalic.ttf"; path = "../../../assets/fonts/Raleway-ThinItalic.ttf"; sourceTree = "<group>"; };
+		6E7367152339ED82001C68F8 /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Zocial.ttf; path = ../../../assets/fonts/Zocial.ttf; sourceTree = "<group>"; };
+		6E7367162339ED82001C68F8 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialCommunityIcons.ttf; path = ../../../assets/fonts/MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
+		6E7367172339ED82001C68F8 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.ttf; path = ../../../assets/fonts/FontAwesome.ttf; sourceTree = "<group>"; };
+		6E7367182339ED82001C68F8 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = SimpleLineIcons.ttf; path = ../../../assets/fonts/SimpleLineIcons.ttf; sourceTree = "<group>"; };
+		6E7367192339ED82001C68F8 /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Fontisto.ttf; path = ../../../assets/fonts/Fontisto.ttf; sourceTree = "<group>"; };
+		6E73671A2339ED82001C68F8 /* Cagliostro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cagliostro-Regular.ttf"; path = "../../../assets/fonts/Cagliostro-Regular.ttf"; sourceTree = "<group>"; };
+		6E73671B2339ED82001C68F8 /* Raleway-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Raleway-Thin.ttf"; path = "../../../assets/fonts/Raleway-Thin.ttf"; sourceTree = "<group>"; };
+		6E73671C2339ED83001C68F8 /* Raleway-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Raleway-MediumItalic.ttf"; path = "../../../assets/fonts/Raleway-MediumItalic.ttf"; sourceTree = "<group>"; };
+		6E7367972339F8A1001C68F8 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ScanMyLaundry/www; sourceTree = "<group>"; };
+		835D8C408498A5F71CA852FD /* libPods-ScanMyLaundry-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScanMyLaundry-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		940418B8BF1CFA3205552921 /* Pods-ScanMyLaundry-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanMyLaundry-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-ScanMyLaundry-tvOS/Pods-ScanMyLaundry-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		A592C49E4942F17F6EC3A87B /* libPods-ScanMyLaundry-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScanMyLaundry-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6449DA5A253FEA2A73D3696 /* Pods-ScanMyLaundryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanMyLaundryTests.release.xcconfig"; path = "Target Support Files/Pods-ScanMyLaundryTests/Pods-ScanMyLaundryTests.release.xcconfig"; sourceTree = "<group>"; };
+		C4A7553B93FC0302A95FAC86 /* Pods-ScanMyLaundry-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanMyLaundry-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-ScanMyLaundry-tvOSTests/Pods-ScanMyLaundry-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B29B2F277B943F009931CE /* MapKit.framework in Frameworks */,
+				3707937B38614520BD44E5CA /* libPods-ScanMyLaundry.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4781E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B5F3E9239C61EAB6190BD79 /* libPods-ScanMyLaundry-tvOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48D1E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9383DDABDE80BEB75D0DB27C /* libPods-ScanMyLaundry-tvOSTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* ScanMyLaundryTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* ScanMyLaundryTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = ScanMyLaundryTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* ScanMyLaundry */ = {
+			isa = PBXGroup;
+			children = (
+				18B29B2D277B7220009931CE /* ScanMyLaundryDebug.entitlements */,
+				4A0A379B24FD85A400FCA1B3 /* ScanMyLaundry.entitlements */,
+				6E66A68123869239002E415E /* GoogleService-Info.plist */,
+				6E7367972339F8A1001C68F8 /* www */,
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = ScanMyLaundry;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18B29B2E277B943F009931CE /* MapKit.framework */,
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				06AAF7319CF4F71E4CDCF03D /* libPods-ScanMyLaundry.a */,
+				835D8C408498A5F71CA852FD /* libPods-ScanMyLaundry-tvOS.a */,
+				A592C49E4942F17F6EC3A87B /* libPods-ScanMyLaundry-tvOSTests.a */,
+				164B0A6CF11C166E9AF75FF6 /* libPods-ScanMyLaundryTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E7366D72339ED42001C68F8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6E7367002339ED7F001C68F8 /* Cagliostro-Bold.ttf */,
+				6E73671A2339ED82001C68F8 /* Cagliostro-Regular.ttf */,
+				6E73670B2339ED81001C68F8 /* Entypo.ttf */,
+				6E7367092339ED80001C68F8 /* EvilIcons.ttf */,
+				6E7367102339ED81001C68F8 /* Feather.ttf */,
+				6E7367172339ED82001C68F8 /* FontAwesome.ttf */,
+				6E7367022339ED7F001C68F8 /* FontAwesome5_Brands.ttf */,
+				6E7366FC2339ED7E001C68F8 /* FontAwesome5_Regular.ttf */,
+				6E7366FF2339ED7F001C68F8 /* FontAwesome5_Solid.ttf */,
+				6E7367192339ED82001C68F8 /* Fontisto.ttf */,
+				6E7367112339ED81001C68F8 /* Foundation.ttf */,
+				6E73670A2339ED80001C68F8 /* Ionicons.ttf */,
+				6E7367162339ED82001C68F8 /* MaterialCommunityIcons.ttf */,
+				6E7366FA2339ED7E001C68F8 /* MaterialIcons.ttf */,
+				6E73670C2339ED81001C68F8 /* Octicons.ttf */,
+				6E73670F2339ED81001C68F8 /* Raleway-Black.ttf */,
+				6E7366F82339ED7E001C68F8 /* Raleway-BlackItalic.ttf */,
+				6E7367032339ED80001C68F8 /* Raleway-Bold.ttf */,
+				6E7367132339ED81001C68F8 /* Raleway-BoldItalic.ttf */,
+				6E7367072339ED80001C68F8 /* Raleway-ExtraBold.ttf */,
+				6E73670D2339ED81001C68F8 /* Raleway-ExtraBoldItalic.ttf */,
+				6E7367012339ED7F001C68F8 /* Raleway-ExtraLight.ttf */,
+				6E7367082339ED80001C68F8 /* Raleway-ExtraLightItalic.ttf */,
+				6E7366FB2339ED7E001C68F8 /* Raleway-Light.ttf */,
+				6E7367042339ED80001C68F8 /* Raleway-LightItalic.ttf */,
+				6E7367122339ED81001C68F8 /* Raleway-Medium.ttf */,
+				6E73671C2339ED83001C68F8 /* Raleway-MediumItalic.ttf */,
+				6E7367052339ED80001C68F8 /* Raleway-Regular.ttf */,
+				6E7366F92339ED7E001C68F8 /* Raleway-RegularItalic.ttf */,
+				6E7367062339ED80001C68F8 /* Raleway-SemiBold.ttf */,
+				6E7366FD2339ED7E001C68F8 /* Raleway-SemiBoldItalic.ttf */,
+				6E73671B2339ED82001C68F8 /* Raleway-Thin.ttf */,
+				6E7367142339ED82001C68F8 /* Raleway-ThinItalic.ttf */,
+				6E7367182339ED82001C68F8 /* SimpleLineIcons.ttf */,
+				6E7366FE2339ED7F001C68F8 /* SpaceMono-Regular.ttf */,
+				6E7367152339ED82001C68F8 /* Zocial.ttf */,
+				6E7366D82339ED42001C68F8 /* Fontisto.ttf */,
+				6E7366D92339ED42001C68F8 /* Octicons.ttf */,
+				6E7366DA2339ED42001C68F8 /* Feather.ttf */,
+				6E7366DB2339ED42001C68F8 /* Entypo.ttf */,
+				6E7366DC2339ED42001C68F8 /* FontAwesome5_Brands.ttf */,
+				6E7366DD2339ED42001C68F8 /* MaterialCommunityIcons.ttf */,
+				6E7366DE2339ED42001C68F8 /* AntDesign.ttf */,
+				6E7366DF2339ED42001C68F8 /* Foundation.ttf */,
+				6E7366E02339ED42001C68F8 /* Ionicons.ttf */,
+				6E7366E12339ED42001C68F8 /* FontAwesome5_Solid.ttf */,
+				6E7366E22339ED42001C68F8 /* FontAwesome5_Regular.ttf */,
+				6E7366E32339ED42001C68F8 /* FontAwesome.ttf */,
+				6E7366E42339ED42001C68F8 /* Zocial.ttf */,
+				6E7366E52339ED42001C68F8 /* EvilIcons.ttf */,
+				6E7366E62339ED42001C68F8 /* SimpleLineIcons.ttf */,
+				6E7366E72339ED42001C68F8 /* MaterialIcons.ttf */,
+			);
+			name = Fonts;
+			path = "../node_modules/react-native-vector-icons/Fonts";
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				6E7366D72339ED42001C68F8 /* Fonts */,
+				13B07FAE1A68108700A75B9A /* ScanMyLaundry */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* ScanMyLaundryTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				91F81EA347183A554F08CD7A /* Pods */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* ScanMyLaundry.app */,
+				2D02E47B1E0B4A5D006451C7 /* ScanMyLaundry-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* ScanMyLaundry-tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91F81EA347183A554F08CD7A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C118548766822106FE268C3 /* Pods-ScanMyLaundry.debug.xcconfig */,
+				3696B20EF3D7CC516DC233FD /* Pods-ScanMyLaundry.release.xcconfig */,
+				940418B8BF1CFA3205552921 /* Pods-ScanMyLaundry-tvOS.debug.xcconfig */,
+				06CFAF25BF4EFF56635115E3 /* Pods-ScanMyLaundry-tvOS.release.xcconfig */,
+				C4A7553B93FC0302A95FAC86 /* Pods-ScanMyLaundry-tvOSTests.debug.xcconfig */,
+				0308E2971D49271D0DEF58BD /* Pods-ScanMyLaundry-tvOSTests.release.xcconfig */,
+				4A12588903CD884BD759E977 /* Pods-ScanMyLaundryTests.debug.xcconfig */,
+				B6449DA5A253FEA2A73D3696 /* Pods-ScanMyLaundryTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B07F861A680F5B00A75B9A /* ScanMyLaundry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ScanMyLaundry" */;
+			buildPhases = (
+				8C3096EFBBA112310C76EEFD /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				9A0394F5E498747C2094BFCF /* [CP] Copy Pods Resources */,
+				E5013B91A80B141DFEEAD87A /* [CP-User] [RNFB] Core Configuration */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScanMyLaundry;
+			productName = ScanMyLaundry;
+			productReference = 13B07F961A680F5B00A75B9A /* ScanMyLaundry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E47A1E0B4A5D006451C7 /* ScanMyLaundry-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ScanMyLaundry-tvOS" */;
+			buildPhases = (
+				42958FA3C6B295DA8D467893 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F122414F3F0027D42C /* Start Packager */,
+				2D02E4771E0B4A5D006451C7 /* Sources */,
+				2D02E4781E0B4A5D006451C7 /* Frameworks */,
+				2D02E4791E0B4A5D006451C7 /* Resources */,
+				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ScanMyLaundry-tvOS";
+			productName = "ScanMyLaundry-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* ScanMyLaundry-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E48F1E0B4A5D006451C7 /* ScanMyLaundry-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ScanMyLaundry-tvOSTests" */;
+			buildPhases = (
+				58E7DD1FE950086DE9E2D627 /* [CP] Check Pods Manifest.lock */,
+				2D02E48C1E0B4A5D006451C7 /* Sources */,
+				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
+				2D02E48E1E0B4A5D006451C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
+			);
+			name = "ScanMyLaundry-tvOSTests";
+			productName = "ScanMyLaundry-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* ScanMyLaundry-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 73L92BDRUA;
+						ProvisioningStyle = Automatic;
+					};
+					2D02E47A1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					2D02E48F1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D02E47A1E0B4A5D006451C7;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "scanMyLaundry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* ScanMyLaundry */,
+				2D02E47A1E0B4A5D006451C7 /* ScanMyLaundry-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* ScanMyLaundry-tvOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AD15477255A7F9100F082D2 /* main.jsbundle in Resources */,
+				6E7367632339F186001C68F8 /* Cagliostro-Bold.ttf in Resources */,
+				6E7367642339F186001C68F8 /* Cagliostro-Regular.ttf in Resources */,
+				6E7367652339F186001C68F8 /* Entypo.ttf in Resources */,
+				6E7367662339F186001C68F8 /* EvilIcons.ttf in Resources */,
+				6E7367672339F186001C68F8 /* Feather.ttf in Resources */,
+				6E7367682339F186001C68F8 /* FontAwesome.ttf in Resources */,
+				6E7367692339F186001C68F8 /* FontAwesome5_Brands.ttf in Resources */,
+				6E73676A2339F186001C68F8 /* FontAwesome5_Regular.ttf in Resources */,
+				6E7367982339F8A1001C68F8 /* www in Resources */,
+				6E73676B2339F186001C68F8 /* FontAwesome5_Solid.ttf in Resources */,
+				6E73676C2339F186001C68F8 /* Fontisto.ttf in Resources */,
+				6E73676D2339F186001C68F8 /* Foundation.ttf in Resources */,
+				6E73676E2339F186001C68F8 /* Ionicons.ttf in Resources */,
+				6E73676F2339F186001C68F8 /* MaterialCommunityIcons.ttf in Resources */,
+				6E7367702339F186001C68F8 /* MaterialIcons.ttf in Resources */,
+				6E7367712339F186001C68F8 /* Octicons.ttf in Resources */,
+				6E7367722339F186001C68F8 /* Raleway-Black.ttf in Resources */,
+				6E7367732339F186001C68F8 /* Raleway-BlackItalic.ttf in Resources */,
+				6E7367742339F186001C68F8 /* Raleway-Bold.ttf in Resources */,
+				6E7367752339F186001C68F8 /* Raleway-BoldItalic.ttf in Resources */,
+				6E7367762339F186001C68F8 /* Raleway-ExtraBold.ttf in Resources */,
+				6E7367772339F186001C68F8 /* Raleway-ExtraBoldItalic.ttf in Resources */,
+				6E7367782339F186001C68F8 /* Raleway-ExtraLight.ttf in Resources */,
+				6E7367792339F186001C68F8 /* Raleway-ExtraLightItalic.ttf in Resources */,
+				6E73677A2339F186001C68F8 /* Raleway-Light.ttf in Resources */,
+				6E73677B2339F186001C68F8 /* Raleway-LightItalic.ttf in Resources */,
+				6E73677C2339F186001C68F8 /* Raleway-Medium.ttf in Resources */,
+				6E73677D2339F186001C68F8 /* Raleway-MediumItalic.ttf in Resources */,
+				6E73677E2339F186001C68F8 /* Raleway-Regular.ttf in Resources */,
+				6E73677F2339F186001C68F8 /* Raleway-RegularItalic.ttf in Resources */,
+				6E7367802339F186001C68F8 /* Raleway-SemiBold.ttf in Resources */,
+				6E7367812339F186001C68F8 /* Raleway-SemiBoldItalic.ttf in Resources */,
+				6E7367822339F186001C68F8 /* Raleway-Thin.ttf in Resources */,
+				6E7367832339F186001C68F8 /* Raleway-ThinItalic.ttf in Resources */,
+				6E7367842339F186001C68F8 /* SimpleLineIcons.ttf in Resources */,
+				6E7367852339F186001C68F8 /* SpaceMono-Regular.ttf in Resources */,
+				6E7367862339F186001C68F8 /* Zocial.ttf in Resources */,
+				6E7367872339F186001C68F8 /* Fontisto.ttf in Resources */,
+				6E7367882339F186001C68F8 /* Octicons.ttf in Resources */,
+				6E7367892339F186001C68F8 /* Feather.ttf in Resources */,
+				6E73678A2339F186001C68F8 /* Entypo.ttf in Resources */,
+				6E66A68223869239002E415E /* GoogleService-Info.plist in Resources */,
+				6E73678B2339F186001C68F8 /* FontAwesome5_Brands.ttf in Resources */,
+				6E73678C2339F186001C68F8 /* MaterialCommunityIcons.ttf in Resources */,
+				6E73678D2339F186001C68F8 /* AntDesign.ttf in Resources */,
+				6E73678E2339F186001C68F8 /* Foundation.ttf in Resources */,
+				6E73678F2339F186001C68F8 /* Ionicons.ttf in Resources */,
+				6E7367902339F186001C68F8 /* FontAwesome5_Solid.ttf in Resources */,
+				6E7367912339F186001C68F8 /* FontAwesome5_Regular.ttf in Resources */,
+				6E7367922339F186001C68F8 /* FontAwesome.ttf in Resources */,
+				6E7367932339F186001C68F8 /* Zocial.ttf in Resources */,
+				6E7367942339F186001C68F8 /* EvilIcons.ttf in Resources */,
+				6E7367952339F186001C68F8 /* SimpleLineIcons.ttf in Resources */,
+				6E7367962339F186001C68F8 /* MaterialIcons.ttf in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4791E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48E1E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		42958FA3C6B295DA8D467893 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScanMyLaundry-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58E7DD1FE950086DE9E2D627 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScanMyLaundry-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C3096EFBBA112310C76EEFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScanMyLaundry-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A0394F5E498747C2094BFCF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScanMyLaundry/Pods-ScanMyLaundry-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/QBImagePickerController/QBImagePicker.bundle",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+				"${PODS_ROOT}/RSKImageCropper/RSKImageCropper/RSKImageCropperStrings.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/Stripe/Stripe.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/Stripe/Stripe3DS2.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QBImagePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RSKImageCropperStrings.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Stripe.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Stripe3DS2.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ScanMyLaundry/Pods-ScanMyLaundry-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5013B91A80B141DFEEAD87A /* [CP-User] [RNFB] Core Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] [RNFB] Core Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\nset -e\n\n_MAX_LOOKUPS=2;\n_SEARCH_RESULT=''\n_RN_ROOT_EXISTS=''\n_CURRENT_LOOKUPS=1\n_JSON_ROOT=\"'react-native'\"\n_JSON_FILE_NAME='firebase.json'\n_JSON_OUTPUT_BASE64='e30=' # { }\n_CURRENT_SEARCH_DIR=${PROJECT_DIR}\n_PLIST_BUDDY=/usr/libexec/PlistBuddy\n_TARGET_PLIST=\"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH}\"\n_DSYM_PLIST=\"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist\"\n\n# plist arrays\n_PLIST_ENTRY_KEYS=()\n_PLIST_ENTRY_TYPES=()\n_PLIST_ENTRY_VALUES=()\n\nfunction setPlistValue {\n  echo \"info:      setting plist entry '$1' of type '$2' in file '$4'\"\n  ${_PLIST_BUDDY} -c \"Add :$1 $2 '$3'\" $4 || echo \"info:      '$1' already exists\"\n}\n\nfunction getFirebaseJsonKeyValue () {\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$1'); puts output[$_JSON_ROOT]['$2']\"\n  else\n    echo \"\"\n  fi;\n}\n\nfunction jsonBoolToYesNo () {\n  if [[ $1 == \"false\" ]]; then\n    echo \"NO\"\n  elif [[ $1 == \"true\" ]]; then\n    echo \"YES\"\n  else echo \"NO\"\n  fi\n}\n\necho \"info: -> RNFB build script started\"\necho \"info: 1) Locating ${_JSON_FILE_NAME} file:\"\n\nif [[ -z ${_CURRENT_SEARCH_DIR} ]]; then\n  _CURRENT_SEARCH_DIR=$(pwd)\nfi;\n\nwhile true; do\n  _CURRENT_SEARCH_DIR=$(dirname \"$_CURRENT_SEARCH_DIR\")\n  if [[ \"$_CURRENT_SEARCH_DIR\" == \"/\" ]] || [[ ${_CURRENT_LOOKUPS} -gt ${_MAX_LOOKUPS} ]]; then break; fi;\n  echo \"info:      ($_CURRENT_LOOKUPS of $_MAX_LOOKUPS) Searching in '$_CURRENT_SEARCH_DIR' for a ${_JSON_FILE_NAME} file.\"\n  _SEARCH_RESULT=$(find \"$_CURRENT_SEARCH_DIR\" -maxdepth 2 -name ${_JSON_FILE_NAME} -print | head -n 1)\n  if [[ ${_SEARCH_RESULT} ]]; then\n    echo \"info:      ${_JSON_FILE_NAME} found at $_SEARCH_RESULT\"\n    break;\n  fi;\n  _CURRENT_LOOKUPS=$((_CURRENT_LOOKUPS+1))\ndone\n\nif [[ ${_SEARCH_RESULT} ]]; then\n  _JSON_OUTPUT_RAW=$(cat \"${_SEARCH_RESULT}\")\n  _RN_ROOT_EXISTS=$(ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$_JSON_OUTPUT_RAW'); puts output[$_JSON_ROOT]\" || echo '')\n\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    _JSON_OUTPUT_BASE64=$(python -c 'import json,sys,base64;print(base64.b64encode(json.dumps(json.loads(open('\"'${_SEARCH_RESULT}'\"').read())['${_JSON_ROOT}'])))' || echo \"e30=\")\n  fi\n\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n\n  # config.analytics_auto_collection_enabled\n  _ANALYTICS_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_auto_collection_enabled\")\n  if [[ $_ANALYTICS_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_COLLECTION\")\")\n  fi\n\n  # config.messaging_auto_init_enabled\n  _MESSAGING_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"messaging_auto_init_enabled\")\n  if [[ $_MESSAGING_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseMessagingAutoInitEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_MESSAGING_AUTO_INIT\")\")\n  fi\n\n  # config.crashlytics_disable_auto_disabler - undocumented for now - mainly for debugging, document if becomes useful\n  _CRASHLYTICS_AUTO_DISABLE_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"crashlytics_disable_auto_disabler\")\n  if [[ $_CRASHLYTICS_AUTO_DISABLE_ENABLED == \"true\" ]]; then\n    echo \"Disabled Crashlytics auto disabler.\" # do nothing\n  else\n    _PLIST_ENTRY_KEYS+=(\"FirebaseCrashlyticsCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"NO\")\n  fi\n\n  # config.admob_delay_app_measurement_init\n  _ADMOB_DELAY_APP_MEASUREMENT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"admob_delay_app_measurement_init\")\n  if [[ $_ADMOB_DELAY_APP_MEASUREMENT == \"true\" ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GADDelayAppMeasurementInit\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"YES\")\n  fi\n\n  # config.admob_ios_app_id\n  _ADMOB_IOS_APP_ID=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"admob_ios_app_id\")\n  if [[ $_ADMOB_IOS_APP_ID ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GADApplicationIdentifier\")\n    _PLIST_ENTRY_TYPES+=(\"string\")\n    _PLIST_ENTRY_VALUES+=(\"$_ADMOB_IOS_APP_ID\")\n  fi\nelse\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n  echo \"warning:   A firebase.json file was not found, whilst this file is optional it is recommended to include it to configure firebase services in React Native Firebase.\"\nfi;\n\necho \"info: 2) Injecting Info.plist entries: \"\n\n# Log out the keys we're adding\nfor i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n  echo \"    ->  $i) ${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\"\ndone\n\nfor plist in \"${_TARGET_PLIST}\" \"${_DSYM_PLIST}\" ; do\n  if [[ -f \"${plist}\" ]]; then\n\n    # paths with spaces break the call to setPlistValue. temporarily modify\n    # the shell internal field separator variable (IFS), which normally\n    # includes spaces, to consist only of line breaks\n    oldifs=$IFS\n    IFS=\"\n\"\n\n    for i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n      setPlistValue \"${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\" \"${plist}\"\n    done\n\n    # restore the original internal field separator value\n    IFS=$oldifs\n  else\n    echo \"warning:   A Info.plist build output file was not found (${plist})\"\n  fi\ndone\n\necho \"info: <- RNFB build script finished\"\n";
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F122414F3F0027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4771E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
+				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48C1E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCD954D1E0B4F2C00145EB5 /* ScanMyLaundryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D02E47A1E0B4A5D006451C7 /* ScanMyLaundry-tvOS */;
+			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B07FB21A68108700A75B9A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = ScanMyLaundry;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C118548766822106FE268C3 /* Pods-ScanMyLaundry.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ScanMyLaundry/ScanMyLaundryDebug.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 242;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = 73L92BDRUA;
+				INFOPLIST_FILE = ScanMyLaundry/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift/$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 4.1.242;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.scanmylaundry;
+				PRODUCT_NAME = ScanMyLaundry;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3696B20EF3D7CC516DC233FD /* Pods-ScanMyLaundry.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ScanMyLaundry/ScanMyLaundry.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 242;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 73L92BDRUA;
+				INFOPLIST_FILE = ScanMyLaundry/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift/$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 4.1.242;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.scanmylaundry;
+				PRODUCT_NAME = ScanMyLaundry;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		2D02E4971E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 940418B8BF1CFA3205552921 /* Pods-ScanMyLaundry-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "ScanMyLaundry-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ScanMyLaundry-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		2D02E4981E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06CFAF25BF4EFF56635115E3 /* Pods-ScanMyLaundry-tvOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "ScanMyLaundry-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ScanMyLaundry-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		2D02E4991E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4A7553B93FC0302A95FAC86 /* Pods-ScanMyLaundry-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "ScanMyLaundry-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ScanMyLaundry-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScanMyLaundry-tvOS.app/ScanMyLaundry-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		2D02E49A1E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0308E2971D49271D0DEF58BD /* Pods-ScanMyLaundry-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "ScanMyLaundry-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ScanMyLaundry-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScanMyLaundry-tvOS.app/ScanMyLaundry-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ScanMyLaundry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ScanMyLaundry-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4971E0B4A5E006451C7 /* Debug */,
+				2D02E4981E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ScanMyLaundry-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4991E0B4A5E006451C7 /* Debug */,
+				2D02E49A1E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "scanMyLaundry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

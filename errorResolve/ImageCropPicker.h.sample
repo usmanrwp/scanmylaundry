@@ -1,0 +1,3 @@
+Got the same error RN v0.60.5 in iOS & was working fine on android, later installed 
+npm i react-native-image-crop-picker@0.25.3 --save and pod install
+ solved the error as suggested by @almorak .
