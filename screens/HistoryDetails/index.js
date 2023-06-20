@@ -94,11 +94,13 @@ export default class index extends Component {
     console.warn("resss", res);
     let workCurrentStatus = await OrderStatusEssex(res[0].work_status);
     workCurrentStatus = workCurrentStatus.textStatus;
-    console.warn("workCurrentStatus", res[0].house_no);
     this.setState({
       house_no: res[0].house_no,
+      address1: res[0].address1,
+      address2: res[0].address2,
+      postal_code: res[0].post_code,
     });
-    
+    console.log("addressss=>", res[0].address1, res[0]);
     if (workCurrentStatus === "Not seen") {
       this.setState({
         workCurrentStatus: "Seen",

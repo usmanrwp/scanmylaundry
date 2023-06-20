@@ -931,7 +931,6 @@ export default class index extends Component {
                 <FlatList
                   extraData={this.state}
                   data={this.state.data1}
-                  extraData={this.state.metaData}
                   keyExtractor={item => {
                     return item.id;
                   }}
@@ -2102,6 +2101,8 @@ export default class index extends Component {
       param["total_bill"] = this.state.DiscountedPrice;
     }
     param["house_no"] = this.state.house_no;
+    param["address1"] = this.state.address1;
+    param["address2"] = this.state.address2;
     let param1 = {};
     for (let i = 0; i < this.state.orderItemData.length; i++) {
       const element = this.state.orderItemData[i];
